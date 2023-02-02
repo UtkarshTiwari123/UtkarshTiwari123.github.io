@@ -57,8 +57,12 @@ h1, h2, p {
 
 ul {
   margin: 0;
-  padding: 0;
   list-style: none;
+}
+
+.proj_text {
+  margin: 0 !important;
+  list-style: disc !important;
 }
 
 a {

@@ -9,6 +9,7 @@
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
         <title>Utkarsh Tiwari Portfolio</title>
     </head>
@@ -27,7 +28,7 @@
                         <li class="nav__item"><a href="#work" class="nav__link">Work Experience</a></li>
                         <li class="nav__item"><a href="#proj" class="nav__link">Projects</a></li>
                         <li class="nav__item"><a href="#edu" class="nav__link">Education</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">SKills</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
                 </div>
@@ -125,11 +126,13 @@
                           
                           <div>
                               <h2 class="about__subtitle">Car Parking Management System</h2>
-                              <p class="about__text">
-                                • Developed a Web App which allows the users to book a parking slot for their vehicle at various locations.
-                                • Designed the UI of the app along with implementation of various APIs.
-                                • Tech Stack - AngularJS, Java, SpringBoot.
-                              </p>           
+                              <!-- <p class="about__text"> -->
+                                <ul class="proj_text">
+                                <li>Developed a Web App which allows the users to book a parking slot for their vehicle at various locations. </li>
+                                <li>Designed the UI of the app along with implementation of various APIs. </li>
+                                <li>Tech Stack - AngularJS, Java, SpringBoot.</li>
+                                </ul>
+                              <!-- </p>            -->
                           </div>                                   
                       </div>
 
@@ -140,10 +143,12 @@
                         
                         <div>
                             <h2 class="about__subtitle">Phonebook Management System</h2>
-                            <p class="about__text">
-                              • Developed a CLI Application which allows the users to manage or search contacts in their Phonebook.
-                              • Implemented the project using various data structures such as Doubly Linked-List,Trie and Concepts of OOPS
-                            </p>           
+                            <!-- <p class="about__text"> -->
+                              <ul class="proj_text">
+                                <li>Developed a CLI Application which allows the users to manage or search contacts in their Phonebook.</li>
+                                <li>Implemented the project using various data structures such as Doubly Linked-List,Trie and Concepts of OOPS</li>
+                              </ul>
+                            <!-- </p>            -->
                         </div>                                   
                     </div>
 
@@ -154,11 +159,13 @@
                       
                       <div>
                           <h2 class="about__subtitle">Real Estate Marketing Application</h2>
-                          <p class="about__text">
-                            • Developed a Web App which allows the users to book a parking slot for their vehicle at various locations.
-                            • Designed the UI of the app along with implementation of various APIs.
-                            • Tech Stack - AngularJS, Java, SpringBoot.
-                          </p>           
+                          <!-- <p class="about__text"> -->
+                            <ul class="proj_text">
+                              <li>Developed a Web App which allows the users to book a parking slot for their vehicle at various locations.</li>
+                              <li>Designed the UI of the app along with implementation of various APIs.</li>
+                              <li>Tech Stack - AngularJS, Java, SpringBoot.</li>
+                            </ul>
+                          <!-- </p>            -->
                       </div>                                   
                   </div>
 
@@ -169,11 +176,12 @@
                     
                     <div>
                         <h2 class="about__subtitle">E-Commerce Web Application</h2>
-                        <p class="about__text">
-                          • Built a Web App that allows the users to purchase the product from a wide variety of products available under
-                          different categories.
-                          • Tech Stack - HTML, CSS, PHP
-                        </p>           
+                        <!-- <p class="about__text"> -->
+                          <ul class="proj_text">
+                          <li>Built a Web App that allows the users to purchase the product from a wide variety of products available under different categories. </li>
+                          <li>Tech Stack - HTML, CSS, PHP</li>
+                          </ul>
+                        <!-- </p>            -->
                     </div>                                   
                 </div>
             </section>
@@ -325,7 +333,7 @@
             </section>
 
             <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
+            <!-- <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
@@ -336,16 +344,40 @@
                         <input type="button" value="Enviar" class="contact__button button">
                     </form>
                 </div>
-            </section>
+            </section> -->
+
+            <section id="contact">
+              <div class="container mt-3 contactContent pb-4" style="column-gap: 5rem;">
+                  <h1 class="text-center">Get in Touch</h1>
+      
+                  <div class="row mt-5">
+                      <div class="col-lg-6">
+                          <form action="https://formsubmit.co/utkarsh.samar@gmail.com" method="POST">
+                              <input type="text" class="form-control form-control" placeholder="Name">
+                              <input type="email" id="email" class="form-control mt-3" placeholder="Email">
+                              <div class="mb-3 mt-3">
+                                  <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Message"></textarea>
+                              </div>
+                              <button type="submit" class="btn btn-success mt-3">Submit</button>
+                          </form>
+                      </div>
+
+                      <div class="col-lg-6">
+                        <div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;"><div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Commonwealth+Games+Village+Apartments+Akshardham,+CWG,+Patparganj,+New+Delhi,+Delhi,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="google-maps-html" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="grab-maps-authorization">premium bootstrap themes</a><style>#embed-map-canvas img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
+                      </div>
+      
+                  </div>
+              </div>
+          </section>
         </main>
 
         <!--===== FOOTER =====-->
         <footer class="footer">
             <p class="footer__title">Utkarsh</p>
             <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://www.facebook.com/utkarsh.tiwari.3781/" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.instagram.com/__utkarshtiwari_/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://wa.me/+917275026242" class="footer__icon"><i class='bx bxl-whatsapp' ></i></a>
             </div>
             <p class="footer__copy">&#169; Utkarsh Tiwari. All rigths reserved</p>
         </footer>
@@ -358,3 +390,4 @@
         <script src="assets/js/main.js"></script>
     </body>
 </html>
+
