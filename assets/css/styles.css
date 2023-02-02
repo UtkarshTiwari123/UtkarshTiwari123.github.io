@@ -92,6 +92,9 @@ img {
   top: 2rem;
   background-color: var(--first-color);
 }
+.edu-sec {
+  margin: auto;
+}
 
 .section {
   padding-top: 3rem;
@@ -104,6 +107,8 @@ img {
   display: grid;
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
+  margin-top: 20px;
+  margin-bottom: 20px;
 
 }
 
@@ -333,8 +338,16 @@ img {
   width: 85%;
 }
 
-.skills__js {
-  width: 65%;
+.skills__java {
+  width: 90%;
+}
+
+.skills__cplus {
+  width: 40%;
+}
+
+.skills__sql {
+  width: 70%;
 }
 
 .skills__ux {
