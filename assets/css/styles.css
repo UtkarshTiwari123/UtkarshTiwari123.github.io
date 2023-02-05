@@ -66,7 +66,7 @@ ul {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 img {
@@ -146,8 +146,14 @@ img {
     background-color: var(--second-color);
     transition: .5s;
   }
-}
 
+  .sec_div {
+    margin-top: 0px !important;
+  }
+}
+.sec_div {
+  margin-top:53px;
+}
 .nav__item {
   margin-bottom: var(--mb-4);
 }
@@ -161,6 +167,9 @@ img {
   position: relative;
 }
 
+.a {
+  text-decoration: none;
+}
 .nav__link:hover::after {
   position: absolute;
   content: '';
@@ -311,6 +320,13 @@ img {
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+}
+li {
+  text-align: left;
+}
+
+span.skills__name {
+  margin-left: 10px;
 }
 
 .skills__icon {
