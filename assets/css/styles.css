@@ -63,6 +63,7 @@ ul {
 .proj_text {
   margin: 0 !important;
   list-style: disc !important;
+  font-size: large;
 }
 
 a {
@@ -366,16 +367,24 @@ span.skills__name {
   width: 40%;
 }
 
+.skills__js {
+  width: 60%;
+}
 .skills__sql {
   width: 70%;
 }
-
+.skills__node{
+  width: 60%;
+}
 .skills__ux {
   width: 85%;
 }
 
 .skills__php {
   width: 75%;
+}
+.skills__python {
+  width: 30%;
 }
 
 .skills__img {
