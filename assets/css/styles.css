@@ -66,9 +66,13 @@ ul {
   font-size: large;
 }
 
+.about__text {
+  font-size: large;
+}
 a {
   text-decoration: none !important;
 }
+
 
 img {
   max-width: 100%;
@@ -183,6 +187,7 @@ img {
 
 .nav__logo {
   color: var(--second-color);
+  font-size: large;
 }
 
 .nav__toggle {
