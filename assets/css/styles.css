@@ -526,6 +526,7 @@ span.skills__name {
   }
   .section-title {
     margin-bottom: var(--mb-6);
+    font-size: xx-large;
   }
   .section-title::after {
     width: 80px;
